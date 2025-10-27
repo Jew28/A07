@@ -3,6 +3,47 @@
 	--accent-color: #800000;  /* could also be coded #800 */
 }
 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default spacing */
+h1, h2, h3, p, ul {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+ul {
+  margin-left: 2em;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  border: 2px solid var(--accent-color);
+}
+
+header {
+  border-bottom: 2px solid var(--accent-color);
+}
+
+main h1 {
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+}
+
+footer {
+  background-color: var(--accent-color);
+}
+
+footer p {
+  color: white;
+}
+
+
 /* default styles */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -44,14 +85,30 @@ main {
 	clear: left;
 }
 
-/* the styles for the footer */
-footer {
-	& p {
-		text-align: center;
-	}
+header img {
+  margin: 0.75em 1em;
+}
+
+header h2 {
+  padding-bottom: 0;
+}
+
+header h3 {
+  padding-bottom: 1em;
+}
+
+main {
+  padding: 0 1em 1em;
+}
+
+footer p {
+  padding: 1em 0;
+}
+
 }
 
 /* CSS class */
 .large {
 	font-size: 125%;
 }
+
