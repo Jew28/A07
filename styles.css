@@ -83,5 +83,9 @@ main img {
   margin-top: 1em;
 }
 
+footer {
+  background-color: var(--accent-color);
+  padding: 1em;
+  margin-top: 2em;
 
 
