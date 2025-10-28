@@ -9,10 +9,32 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, p, ul {
+p{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
+h1
+{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+h2
+{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+h3 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+ul {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+
+
 
 ul {
   margin-left: 2em;
@@ -87,5 +109,6 @@ footer {
   background-color: var(--accent-color);
   padding: 1em;
   margin-top: 2em;
+
 
 
